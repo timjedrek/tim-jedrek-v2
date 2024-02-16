@@ -7,9 +7,22 @@ import createSlug from "../lib/createSlug"
 const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 const last_posts = posts.slice(0, 3);
+
+
+
+  // Get the current date
+  let currentDate = new Date();
+  // Month names array
+  let monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+  // Get the month and year
+  const month = monthNames[currentDate.getMonth()];
+  const year = currentDate.getFullYear();
+
 ---
 
 <BaseLayout sideBarActiveItemID="home">
+  <img src="tim-jedrek-right-rudder-king-schools-2.webp" alt="Tim Jedrek" class="">
   <div class="pb-12 mt-5">
     <!-- <div class="text-xl py-1">Hey there 👋</div> -->
     <div class="text-5xl font-bold">I'm Tim Jedrek</div>
@@ -26,7 +39,7 @@ const last_posts = posts.slice(0, 3);
       </a>
     </div>
     <div class="text-2xl py-3 font-bold">About Me</div>
-    <div class="text-sm italic text-accent">last updated February 2024</div>
+    <div class="text-sm italic text-accent">last updated {month} {year}</div>
     <div class="py-2">
       <text class="text-lg">
         I'm on a mission to find 100 flight schools in the world to partner with and double their student body.  Everyday, I work with the team at Right Rudder Marketing to implement and execute the latest technical strategies and tactics to move flight school businesses up higher on Google search. Our collective goal is to get those flight schools known to their prospective students.  Through our efforts we've helped flight schools in America achieve:
@@ -34,15 +47,71 @@ const last_posts = posts.slice(0, 3);
       <ul class="list-disc ml-10 my-5">
         <li>Bringing flight schools to over $1M in annual revenue</li>
         <li>10X the number of leads coming in a flight school</li>
-        <li>Doubling flight school student body and flight time brining in ov $3M in annual revenue</li>
-        <li>Double the amount of Google reviews at a flight school in under 6 months</li>
+        <li>Doubling flight school student body and flight time brining in over $3M in annual revenue</li>
+        <li>Doubling the amount of Google reviews at a flight school in under 6 months</li>
         <li>Dominating in a flight school's local service area and ranking #1 on Google Maps and organic search</li>
       </ul>
       <text class="text-lg">
-        I started Right Rudder Marketing over a year ago and I am so grateful for the growth of the company and of our flight school partners.  It truly is awe inspiring to see our flight schools transform their operations into large scalable businesses.  I love being a part of that because I know that by growing our flight schools' businesses, it drives more people into aviation and brings more pilots into the industry.
+        I started Right Rudder Marketing over a year ago and I am so grateful for the growth of the company and of our flight school partners.  It is truly awe inspiring to see our flight schools transform their operations into large scalable businesses.  I love being a part of that because I know that by growing our flight schools' businesses, it drives more people into aviation and brings more pilots into the industry.  And that's what really matters.  Having a lasting impact on our students and the future pilots of the world.
       </text>
     </div>
+    <img src="fsana-tim-jedrek-flight-school-marketing.webp" alt="Tim Jedrek" class="">
     <div class="text-2xl py-3 font-bold">How I Got Here</div>
+    <div class="py-2">
+      <text class="text-lg">
+        Right Rudder Marketing is pretty new, but I've been in the game longer that just that.  I started my career in manufacturing.  Specifically quality assurance management in the food industry.  With over a decade of experience working in the food industry, I built teams, worked with B2B sales, facilitated federal and third party audits, and created systems and procedures to build and optimize the departments I managed.
+      </text>
+    </div>
+    <div class="py-2">
+      <text class="text-lg">
+        It was a great career and one that helped fund my pilot certificate.  However, I always had an itch.  After I did my intro discovery flight more than 4 years ago, I knew I had to be in aviation.
+      </text>
+    </div>
+    <div class="py-2">
+      <text class="text-lg">
+        On the side, I had been creating websites and programming for fun.  I started programming when I was in high school and I sold my first website to a restaurant back in 2019.  From there, I took on more projects and helped interior designers, musicians, lawn care companies, and various other small businesses, with their website.  However, I noticed that the companies I worked with didn't care about the code I used, whether I used WordPress or GoDaddy.. What business owners really care about is growing the business and getting leads from the website.  
+      </text>
+    </div>
+    <div class="text-xl py-3 font-semibold">The World of Marketing</div>
+    <div class="py-2">
+      <text class="text-lg">
+        What really mattered was not just the website.  But instead how the website fit into a marketing plan as a whole.  In an effort to grow my clients' businesses, I dived head first into marketing and sales.  I attended conferences, read books, took courses to further my skills, and found mentors and coaches to guide me on the path of success.  I was blessed by being surrounded by a group of similar marketing agency owners that helped guide me and show me how to do SEO, how to run Google Ads, and how to grow businesses.
+      </text>
+    </div>
+    <div class="py-2">
+      <text class="text-lg">
+        One of the first lessons I had was choosing a niche or a specific industry to focus on.  In the past when I was selling websites, I had tried to serve everyone and any business.  I quickly learned that doing so is short sighted.  As a business, when we think about our marketing plan, we need to think about to whom our message impacts.  We need to focus closer and dial in who our target customer is and who we want to help and bring value to.
+      </text>
+    </div>
+    <div class="text-xl py-3 font-semibold">Choosing Aviation and Flight Schools</div>
+    <div class="py-2">
+      <text class="text-lg">
+        Which brings me back to that itch we were talking about earlier.  My mentors taught me that if you want to get into a successful business, then you want to get into business in something you have knowledge in.  An industry that you spend a majority of your time and money on or have insider knowledge.  For me that was aviation and the flight training industry.
+      </text>
+    </div>
+    <div class="text-xl py-3 font-semibold">Enter Right Rudder Marketing</div>
+    <div class="py-2">
+      <text class="text-lg">
+        And that's pretty much how I got here.  A lot of trial and error, and a lot of sleepless nights coding away and building software and marketing websites for flight schools.  Now, I'm more focused on building up the Right Rudder Marketing team to scale and duplicate my work and methodology to all our future flight schools to grow their businesses.  The recipe is the same.  A multifaceted approach to marketing online to remain omnipresent in the minds of our target customers.  
+      </text>
+    </div>
+    <div class="text-2xl py-3 font-bold">What Else Do You Do?</div>
+    <div class="py-2">
+      <text class="text-lg">
+        If I'm not flying, writing, or collaborating with a flight school owner... I enjoy my time with my wife, Dianyi.  We enjoy traveling, running marathons, learning foreign languages, and acquiring new skills like rock climbing, golf, boxing, painting, cooking, dancing, shooting, hunting, and ice skating.  Life's pretty short.  Gotta enjoy it!
+      </text>
+    </div>
+    <div class="text-2xl py-3 font-bold">What's Next?</div>
+    <div class="py-2">
+      <text class="text-lg">
+        That's up to you.  You can peruse the website and look at some of the work I've done.  Or you can contact me.  See you soon.
+      </text>
+    </div>
+    <div class="my-8">
+      <a href="https://github.com/manuelernestog/astrofy" target="_blank" class="btn btn-outline">
+        Contact Me
+      </a>
+    </div>
   </div>
 <!-- 
   <div>
@@ -92,3 +161,5 @@ const last_posts = posts.slice(0, 3);
     ))
   }
 </BaseLayout>
+
+
