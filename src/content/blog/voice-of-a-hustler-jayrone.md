@@ -3,7 +3,7 @@ title: "Voice of a Hustler (JayRone)"
 description: "JayRone is a battle rapper in St. Louis, MO.  I met him during my college years when I too, was aiming to be a musician.  We collaborated a few times on some songs and we hanged out a lot. "
 pubDate: "Jun 1 2020"
 heroImage: "/jayrone-voice-of-a-hustler.jpg"
-tags: ["musician", "past work", "website"]
+tags: ["musician", "past work"]
 ---
 
 Last updated: August 15, 2024
@@ -33,3 +33,5 @@ I got the website up and running with WordPress and it definitely did it's job. 
 > WordPress is the main target for hacking attacks and spam.
 
 So of course we updated his site.  For his site, we used Ruby on Rails.  Because it's on Rails, the site has less robot spam and hacker attempts.  It even has a log in where he can update his tour dates, add videos, and add music to the website.
+
+!["screenshot of Jayrone's Voice of a Hustler website"](/jayrone-voice-of-a-hustler-screenshot.png)
