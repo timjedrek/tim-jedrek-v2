@@ -1,9 +1,10 @@
 ---
-title: "Demo Post 1"
+title: "Sun City"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-pubDate: "Sep 10 2022"
+pubDate: "Sep 12 2022"
 heroImage: "/post_img.webp"
-tags: ["tokio"]
+badge: "Demo badge"
+tags: ["rust","tokio"]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
