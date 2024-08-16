@@ -1,7 +1,7 @@
 ---
 title: "Sun City"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-pubDate: "Sep 12 2022"
+pubDate: "Dec 12 2023"
 heroImage: "/post_img.webp"
 badge: "Demo badge"
 tags: ["rust","tokio"]

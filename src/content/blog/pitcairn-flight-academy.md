@@ -1,7 +1,7 @@
 ---
 title: "Pitcairn Flight Academy"
 description: "Pitcairn Flight Academy is a flight school in Pottstown, PA."
-pubDate: "Sep 12 2023"
+pubDate: "Sep 8 2023"
 heroImage: "/post_img.webp"
 badge: "Demo badge"
 tags: ["rust","tokio"]
