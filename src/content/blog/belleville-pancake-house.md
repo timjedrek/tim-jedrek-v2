@@ -6,7 +6,8 @@ heroImage: "/belleville-pancake-house-food.jpg"
 tags: ["restaurant", "past work"]
 ---
 
-Last updated: August 15, 2024
+First launched: February 2, 2022<br>
+Blog updated: August 15, 2024
 
 https://bellevillepancakehouse.com/
 

@@ -6,7 +6,8 @@ heroImage: "/jayrone-voice-of-a-hustler.jpg"
 tags: ["musician", "past work"]
 ---
 
-Last updated: August 15, 2024
+First launched: June 1, 2020<br>
+Blog updated: August 15, 2024
 
 https://voiceofahustler.com
 
