@@ -3,6 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
 import { getCollection } from "astro:content";
 import createSlug from "../lib/createSlug"
+import { Image } from "astro:assets";
 
 const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
@@ -22,7 +23,7 @@ const last_posts = posts.slice(0, 3);
 ---
 
 <BaseLayout sideBarActiveItemID="home">
-  <img src="tim-jedrek.webp" alt="Tim Jedrek" class="">
+  <Image format="webp" width={1000} height={1000} src="/tim-jedrek.webp" alt="Tim Jedrek on a boat in a river" />
 
   <div class="pb-12 mt-5">
     <!-- <div class="text-xl py-1">Hey there 👋</div> -->
@@ -52,7 +53,8 @@ const last_posts = posts.slice(0, 3);
         <li>Doubling the amount of Google reviews at a flight school in under 6 months</li>
         <li>Dominating in a flight school's local service area to rank #1 on Google Maps and organic search</li>
       </ul>
-      <img src="tim-jedrek-right-rudder-king-schools-2.webp" alt="Tim Jedrek" class="">
+      <Image format="webp" width={1000} height={1000} src="/tim-jedrek-right-rudder-king-schools-2.webp" alt="Tim Jedrek at Kings Schools EDU CON speaking" />
+
       <p class="pb-5 italic text-gray-300">
         Tim Jedrek giving a talk at King Schools' EDU CON in San Diego, CA September 2023
       </p>
@@ -66,12 +68,12 @@ const last_posts = posts.slice(0, 3);
         <a href="https://rightruddermarketing.com" class="link">Right Rudder Marketing</a> is pretty new.  It all started in October of 2022 and we signed our first flight school in April of 2023. But I've been in the game longer that just that.  <span class="text-accent">I started my career in manufacturing.</span>  Specifically quality assurance management in the food industry.  With over a decade of experience working in the food industry, I built teams, worked with B2B sales, facilitated federal government and third party audits, and created systems and procedures to build and optimize the departments I managed.  <span class="text-accent">Every quality food safety audit I managed had a passing result and had scores above a 90.</span>  I had a perfect track record.  I bring that same work ethic to every facet of my life.  I always want to achieve the best and do the best.
       </text>
     </div>
-    <img src="tim-jedrek-factory-floor.webp" alt="Tim Jedrek on the factory floor" class="">
+    <Image format="webp" width={500} height={500} src="/tim-jedrek-factory-floor.webp" alt="Tim Jedrek on the factory floor" />
     <p class="pb-5 italic text-gray-300">
       Tim Jedrek walking the factory floor.  Full PPE and everything (for safety and food safety of course!)
     </p>
     
-    <img src="tim-jedrek-tyson-team.webp" alt="Tim Jedrek Tyson Foods Team" class="">
+    <Image format="webp" width={1000} height={1000} src="/tim-jedrek-tyson-team.webp" alt="Tim Jedrek Tyson Foods Team" />
     <p class="pb-5 italic text-gray-300">
       Tim Jedrek and his quality food safety team at Tyson Foods working during the holidays
     </p>
@@ -103,7 +105,7 @@ const last_posts = posts.slice(0, 3);
         Which brings me back to that itch we were talking about earlier.  My mentors taught me that if you want to grow a successful business, then you want to be in business with something you have knowledge in.  Something where you spend a majority of your time and money on or have insider knowledge.  For me that was aviation and the flight training industry.  I don't know about you, but I've spent tens of thousands and soon to be hundreds of thousands of dollars in flight training and flying around for fun.
       </text>
     </div>
-    <img src="tim-jedrek-josh-nelson.webp" alt="Tim Jedrek and his mentor, Josh Nelson" class="">
+    <Image format="webp" width={1000} height={1000} src="/tim-jedrek-josh-nelson.webp" alt="Tim Jedrek and his mentor, Josh Nelson" />
     <p class="pb-5 italic text-gray-300">
       Tim Jedrek and one of his business mentors, Josh Nelson
     </p>
@@ -113,32 +115,37 @@ const last_posts = posts.slice(0, 3);
         And that's pretty much how I got here.  I combined the two passions I had for aviation and programming and founded the company, <a href="https://rightruddermarketing.com" class="link">Right Rudder Marketing</a>.  A lot of trial and error, and a lot of sleepless nights coding away and building software and marketing websites for flight schools.  Now, I'm more focused on building up the Right Rudder Marketing team to scale and duplicate my work and methodology to all our future flight schools to grow their businesses.  The recipe is the same.  A multifaceted approach to marketing online to remain omnipresent in the minds of our target customers.  
       </text>
     </div>
-    <img src="right-rudder-marketing-team-cessna-172.webp" alt="Right Rudder Marketing team at the 2024 annual team fly-in at Medellin, Colombia" class="">
+    <Image format="webp" width={1000} height={1000} src="/right-rudder-marketing-team-cessna-172.webp" alt="Right Rudder Marketing team at the 2024 annual team fly-in at Medellin, Colombia" />
     <p class="pb-5 italic text-gray-300">
       The Right Rudder Marketing team at the annual 2024 FLY-IN in Medellin, Colombia
     </p>
-    <img src="fsana-tim-jedrek-flight-school-marketing.webp" alt="Tim Jedrek speaking at FSANA about marketing" class="">
+    <Image format="webp" width={1000} height={1000} src="/fsana-tim-jedrek-flight-school-marketing.webp" alt="Tim Jedrek speaking at FSANA about marketing" />
     <p class="pb-5 italic text-gray-300">
       Tim Jedrek at FSANA 2023 giving a talk on marketing
     </p>
     <div class="text-2xl py-3 font-bold">What Else Do You Do?</div>
     <div class="py-2">
       <text class="text-lg">
-        If I'm not flying, writing, or collaborating with a flight school owner... I enjoy my time with my wife, Dianyi.  We enjoy traveling, running marathons, learning foreign languages, and acquiring new skills like rock climbing, golf, boxing, painting, cooking, dancing, shooting, hunting, and ice skating.  Life's pretty short.  Gotta enjoy it!
+        If I'm not flying, writing, or collaborating with a flight school owner... I enjoy my time with my wife, Dianyi.  We enjoy traveling, running marathons, learning foreign languages, and acquiring new skills like rock climbing, golf, boxing, painting, cooking, dancing, shooting, hunting, and ice skating.  Anything really.  We love doing novel things together.  Life's pretty short.  Gotta enjoy it!
       </text>
     </div>
-    <img src="tim-and-dianyi-at-a-music-concert.webp" alt="Tim Jedrek and Dianyi at a music concert" class="">
+    <Image format="webp" width={500} height={500} src="/tim-and-dianyi-at-a-music-concert.webp" alt="Tim Jedrek and Dianyi at a music concert" />
     <p class="pb-5 italic text-gray-300">
       Tim Jedrek and his wife, Dianyi, at a music concert
     </p>
-    <img src="tim-and-dianyi-painting.webp" alt="Tim Jedrek and Dianyi learning how to paint" class="">
+    <Image format="webp" width={1000} height={1000} src="/tim-and-dianyi-painting.webp" alt="Tim Jedrek and Dianyi learning how to paint" />
     <p class="pb-5 italic text-gray-300">
       Tim Jedrek and his wife, Dianyi, learning how to paint
     </p>
-    <img src="tim-and-dianyi-climbing-trees.webp" alt="Tim Jedrek and Dianyi at a music concert" class="">
+    <Image format="webp" width={500} height={500} src="/tim-and-dianyi-climbing-trees.webp" alt="Tim Jedrek and Dianyi at a music concert" />
     <p class="pb-5 italic text-gray-300">
       Tim Jedrek and his wife, Dianyi, climbing trees
     </p>
+    <Image format="webp" width={1000} height={1000} src="/tim-dianyi-skating.jpg" alt="Tim Jedrek and Dianyi skating" />
+    <p class="pb-5 italic text-gray-300">
+      Tim Jedrek and his wife, Dianyi, ice skating
+    </p>
+    
     
     <div class="text-2xl py-3 font-bold">What's Next?</div>
     <div class="py-2">
