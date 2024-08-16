@@ -3,7 +3,7 @@ title: "Ideal Aviation"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 pubDate: "Sep 10 2022"
 heroImage: "/post_img.webp"
-tags: ["flight schools", "SEO work", "website work"]
+tags: ["flight schools", "clients",]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
