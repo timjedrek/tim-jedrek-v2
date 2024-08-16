@@ -18,7 +18,7 @@ I was in my office at ADM.  I had just started the job 9 months prior as a quali
 
 Hilmo was my previous colleague at Roha, a food color manufacturing company I worked at prior to my stint at ADM, and he is also the owner of 99 Lawn Care.  When I took the job at Roha, Hilmo had been assigned to the quality lab.  He taught me all the various analytical tests that needed to be done and how the SAP ERP software worked.  We worked closely and we eventually also hanged out outside of work.
 
-We would chat about personal development and how he was growing his lawn care business on the side.  But I was still deep entrenched in climbing the proverbial corporate ladder and wanted to do the best job I could as a freshly minted quality manager.  At the time, I had sold a few websites including Jayrone's [Voice of a hustler](/blog/voice-of-a-hustler-jayrone) and Maria's [Belleville Pancake House](/blog/belleville-pancake-house), but I was nowhere near the stage that Hilmo was at. 
+We would chat about personal development and how he was growing his lawn care business on the side.  But I was still deep entrenched in climbing the proverbial corporate ladder and wanted to do the best job I could as a freshly minted quality manager.  At the time, I had sold a few websites including Jayrone's [Voice of a hustler](/blog/voice-of-a-hustler-jayrone) and Maria's [Belleville Pancake House](/blog/belleville-pancake-house), and I was nowhere near the stage that Hilmo was at. 
 
 He had started his business cutting grass during his high school and college years, and worked on his business after the 9 to 5 job at Roha.  He even had Roha as a lawn care customer!  He eventually pulled the trigger and quit the job and went working full time on his business.
 
