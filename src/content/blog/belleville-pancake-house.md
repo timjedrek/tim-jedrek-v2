@@ -3,10 +3,10 @@ title: "Belleville Pancake House"
 description: "A quaint restaurant in the town of Belleville, IL with delicious tasty American food.  One of my first clients in website development."
 pubDate: "Feb 2 2022"
 heroImage: "/belleville-pancake-house-food.jpg"
-tags: ["restaurant", "past work"]
+tags: ["restaurant", "clients"]
 ---
 
-First launched: February 2, 2022<br>
+Website launch: February 2, 2022<br>
 Blog updated: August 15, 2024
 
 https://bellevillepancakehouse.com/

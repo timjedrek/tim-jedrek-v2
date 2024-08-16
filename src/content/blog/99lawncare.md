@@ -1,12 +1,12 @@
 ---
 title: "99 Lawn Care"
-description: "A lawncare company in Alton, MO."
+description: "A lawncare company in Alton, MO.  With a small story of when I quit my job."
 pubDate: "Sep 10 2022"
 heroImage: "/99-lawn-care-team.webp"
-tags: ["lawn care", "past work"]
+tags: ["lawn care", "clients", "stories"]
 ---
 
-First launched: September 10, 2022<br>
+Website launch: September 10, 2022<br>
 Blog updated: August 15, 2024
 
 https://99lawncare.com<br>

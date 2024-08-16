@@ -3,10 +3,10 @@ title: "Voice of a Hustler (JayRone)"
 description: "JayRone is a battle rapper in St. Louis, MO.  I met him during my college years when I too, was aiming to be a musician.  We collaborated a few times on some songs and we hanged out a lot. "
 pubDate: "Jun 1 2020"
 heroImage: "/jayrone-voice-of-a-hustler.jpg"
-tags: ["musician", "past work"]
+tags: ["musician", "clients"]
 ---
 
-First launched: June 1, 2020<br>
+Website launch: June 1, 2020<br>
 Blog updated: August 15, 2024
 
 https://voiceofahustler.com
