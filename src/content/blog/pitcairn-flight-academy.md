@@ -9,7 +9,7 @@ tags: ["flight schools","clients", "stories"]
 
 Blog updated: August 16, 2024
 
-https://pitcairnflightacademy.com/
+https://pitcairnflightacademy.com/ \
 https://pitcairnaviation.com/
 
 I first came across David, the owner of Pitcairn Flight Academy, at FSANA (Flight School Association of North America) in March 2023.  He had stopped by our table and asked a few questions about our services and how to market his business.  He had just started his aviation business and had one plane.  
@@ -43,5 +43,15 @@ I cannot dismiss the fact that for any business to grow, it takes a team.  When 
 Later on, the Right Rudder Marketing team grew and my dad's responsibilities were delegated to the team.  But without my father's help, Right Rudder Marketing would not be where it is today.  One year later, my father accompanied me again to FSANA in 2024.  We spent a lot of time with each other listening to the talks together and sharing meals.  During the night after all the FSANA events were over, my dad and David went out and checked out the Vegas Sphere.
 
 ![My dad, Tonie, and David hanging out at the Vegas Sphere after FSANA](/tonie-and-david-vegas-fsana-2024.jpg)
+*My dad, Tonie, and David hanging out at the Vegas Sphere after FSANA*
 
 Right Rudder Marketing still works with David's team to this day.  As they continue to grow and scale, they have new projects on the horizon.  There's some operational and regulatory bottlenecks we're facing together, but very soon we will start helping David with promoting and marketing his maintenance and private charter Part 135 operations.  I'm very blessed to have the opportunity to work with David's team and see them go from no digital marketing presence to an established well known business.
+
+![David with Tonie and Tim at FSANA 2024](/david-pitcairn-tonie-tim.jpg)
+*David with Tonie and Tim at FSANA 2024*
+
+![Pitcairn Flight Academy website screenshot](/pitcairn-flight-screenshot.png)
+*Pitcairn Flight Academy website screenshot*
+
+![Pitcairn Aviation FBO website screenshot](/pitcairn-aviation-screenshot.png)
+*Pitcairn Aviation FBO website screenshot*

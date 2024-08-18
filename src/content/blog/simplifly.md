@@ -1,5 +1,5 @@
 ---
-title: "SimpliFly"
+title: "SimpliFly Flight School"
 description: "A flight school in Mesa, AZ focusing on zero to hero accelerated pilot programs"
 pubDate: "July 9 2023"
 heroImage: "/simplifly-logo-3.png"
