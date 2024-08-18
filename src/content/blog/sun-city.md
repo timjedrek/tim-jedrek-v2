@@ -1,6 +1,6 @@
 ---
 title: "Sun City Aviation Academy"
-description: "A flight school in Miami, FL reaching over $1M in revenue in less than a year"
+description: "A flight school in Miami, FL reaching over $1M in revenue in less than a year."
 pubDate: "Aug 24 2023"
 heroImage: "/sun-city-logo.webp"
 tags: ["flight schools", "clients"]
@@ -20,7 +20,7 @@ A few months later, after some negotiations and back and forth, they decided to 
 
 It was a lot of work to get them going.  Their flight school was in a very competitive area and besides Atlantis, there were many other flight schools vying for the top spot.  Sun City Aviation was at the very bottom of search and didn't come up in the maps unless you scrolled pages down to find them.
 
-The FSMS is based on a multifaceted approach to get to the top spot.  There's no single silver bullet that can get a business on top.  We combined a well designed website with great SEO and we coupled that with a Google Ads campaign.  
+The [FSMS](https://rightruddermarketing.com/marketing-system) is based on a multifaceted approach to get to the top spot.  There's no single silver bullet that can get a business on top.  We combined a well designed website with great SEO and we coupled that with a Google Ads campaign.  
 
 While Google Ads does provide somewhat of an instant boost in inquiries and form submissions, having a great organic presence online keeps you on top.  They also did their part.  They held events and ran [youth programs](https://suncityaviation.com/youth-aviation-programs).  They [partnered with Civil Air Patrol](https://suncityaviation.com/posts/sun-city-aviation-academy-partners-with-civil-air-patrol-to-host-their-weekly-meetings-and-events), they [hosted the AOPA Rusty Pilot Seminar](https://suncityaviation.com/posts/sun-city-aviation-hosts-aopa-s-2024-rusty-pilots-seminar), and this year they are the host for the [Women in Aviation Girl's Day](https://suncityaviation.com/posts/announcing-sun-city-aviation-s-girls-in-aviation-day-and-pilot-provisions-shop-opening).  
 
@@ -30,3 +30,11 @@ I am so proud of the team at Sun City and also the Right Rudder Marketing team f
 
 ![Sun City Google Business Profile August 2024](/sun-city-gmb.png)
 *Sun City Google Business Profile August 2024*
+
+I can't wait to see them continue to become the best flight school in Miami and train the next generation of pilots.  They have a lot coming up in store for them.  They are getting their Part 141 Certificate pretty soon, which will then lead to them being able to train international students and GI Bill military transition pilots as well.  Can't wait to see their progress in the upcoming months and years!
+
+![Right Rudder Marketing team with Sun City Aviation Academy team at FSANA 2024](/right-rudder-team-with-sun-city.jpg)
+*Right Rudder Marketing team with Sun City Aviation Academy team at FSANA 2024*
+
+![Sun City Aviation Academy website screenshot](/sun-city-screenshot.png)
+*Sun City Aviation Academy website screenshot*
