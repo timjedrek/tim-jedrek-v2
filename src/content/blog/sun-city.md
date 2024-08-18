@@ -1,6 +1,6 @@
 ---
 title: "Sun City Aviation Academy"
-description: "A flight school in Miami, FL reaching over $1M in revenue in less than a year."
+description: "A flight school in Miami, FL reaching over $1M in revenue in less than a year.  They are slowing becoming the most reputable and best flight school in Pembroke Pines, FL as they host events and focus on youth in aviation programs."
 pubDate: "Aug 24 2023"
 heroImage: "/sun-city-logo.webp"
 tags: ["flight schools", "clients"]

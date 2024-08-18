@@ -1,6 +1,6 @@
 ---
 title: "SimpliFly Flight School"
-description: "A flight school in Mesa, AZ focusing on zero to hero accelerated pilot programs"
+description: "A flight school in Mesa, AZ focusing on zero to hero accelerated pilot programs.  Starting with a wide scope accepting all different types of students, they've honed in on their target market."
 pubDate: "July 9 2023"
 heroImage: "/simplifly-logo-3.png"
 tags: ["flight schools", "clients"]
