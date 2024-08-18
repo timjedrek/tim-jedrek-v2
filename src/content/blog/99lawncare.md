@@ -12,7 +12,7 @@ Blog updated: August 15, 2024
 https://99lawncare.com<br>
 https://www.facebook.com/99LawnCare/
 
-I was in my office at ADM.  I had just started the job 9 months prior as a quality manager.  My heart pounded and my mind was full of thoughts.  My hand shaking just out of pure excitement and anxiety.  I had just gotten a verbal yes on my fourth [flight school](/blog/tag/flight%20schools) client.  I started crunching numbers in my head.  
+I was in my office at the ADM flour mill in St. Louis, MO.  I had just started the job 9 months prior as a quality manager.  My heart pounded and my mind was full of thoughts.  My hand shaking just out of pure excitement and anxiety.  I had just gotten a verbal yes on my fourth [flight school](/blog/tag/flight%20schools) client.  I started crunching numbers in my head.  
 
 "I could go full time in the business. I could quit my job!" I said to myself.  I couldn't believe this was reality.  I picked up my phone and called Hilmo and asked for his counsel.
 

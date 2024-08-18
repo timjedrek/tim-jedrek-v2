@@ -8,11 +8,11 @@ tags: ["flight schools", "clients"]
 
 Blog updated: August 18, 2024
 
-Sun City Aviation Academy is one of the flight schools I am most proud of.  I met Georgette, one of the owners of Sun City Aviation Academy, at the end of FSANA (Flight School Association of North America).  Most of the other exhibitors had already packed up and left.  We also mostly packed up already, but I decided to wait it out to the very end and greet people as they left the conference.
+Sun City Aviation Academy is one of the flight schools I am most proud of.  They've come a long way since I first met them and I'm excited to share our story.  I met Georgette, one of the owners of Sun City Aviation Academy, at the end of FSANA (Flight School Association of North America).  Most of the other exhibitors had already packed up and left.  We also mostly packed up already, but I decided to wait it out to the very end and greet people as they left the conference.
 
 We were very fortunate to be positioned right by the entrance of the main hall so every attendee passed by our table as they came or went.  When Georgette passed by, I waved hello and greeted her.  She had a keen interest in our marketing services.  She and her husband, Luke, had started a flight school in North Perry Airport (KHWO) located in Pembroke Pines which is a small municipality within the greater south Florida Miami area.
 
-They had been running their business for a little less than a year and were getting frustrated as their phone did ring as often as they liked.  I offered the [FSMS Checklist](https://rightruddermarketing.com/flight-school-marketing-checklist) to her which is a one page comprehensive checklist of marketing items that they could do on their own.  Regardless of whether they were trying to work with Right Rudder Marketing, I wanted to provide the knowledge and expertise of Right Rudder Marketing to help their flight school.
+They had been running their business for a little less than a year and were getting frustrated as their phone didn't ring as often as they liked.  I offered the [FSMS Checklist](https://rightruddermarketing.com/flight-school-marketing-checklist) to her which is a one page comprehensive checklist of marketing items that they could do on their own.  Regardless of whether they were trying to work with Right Rudder Marketing, I wanted to provide the knowledge and expertise of Right Rudder Marketing to help their flight school.
 
 > I think being genuine and really trying to help flight school owners is what matter the most. We're all trying to better the aviation industry and train more pilots.
 
