@@ -59,4 +59,4 @@ Check them out here:
 
 ![Ideal Aviation website screenshot](/ideal-aviation-screenshot.png)
 
-> We have been using Right Rudder for the past 6 months and could not be happier! They revamped our website to make it more user friendly, makes consistent updates, and are very responsive to our needs. We have seen a steady increase in web traffic as well as website driven phone calls since starting with Right Rudder. I can not say enough good things about them! - Kim, Ideal Aviation Academy
+> We have been using Right Rudder for the past 6 months and could not be happier! They revamped our website to make it more user friendly, makes consistent updates, and are very responsive to our needs. We have seen a steady increase in web traffic as well as website driven phone calls since starting with Right Rudder. I can not say enough good things about them! <br><br> - Kim, Ideal Aviation Academy

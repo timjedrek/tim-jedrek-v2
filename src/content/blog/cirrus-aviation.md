@@ -8,7 +8,7 @@ tags: ["flight schools", "clients"]
 
 Blog updated: August 18, 2024
 
-> Tim and his team at Right Rudder are such a great find for aviation companies in need of a professional touch to their marketing portfolio. In my 24 years of experience at Cirrus Aviation Flight Training, it has always been so difficult to find and retain someone with creative abilities that understands aviation, and consistently produces results. Right Rudder understands the industry, produces context-correct content with tracked results, all with a smile.
+> Tim and his team at Right Rudder are such a great find for aviation companies in need of a professional touch to their marketing portfolio. In my 24 years of experience at Cirrus Aviation Flight Training, it has always been so difficult to find and retain someone with creative abilities that understands aviation, and consistently produces results. Right Rudder understands the industry, produces context-correct content with tracked results, all with a smile. <br><br> - Nayda, Cirrus Aviation
 
 We worked with Nayda and her team at Cirrus Aviation between December 2023 and May 2024 and they were a delight to work with.  While we did not implement the [FSMS](https://rightruddermarketing.com/marketing-system) for them where we overhaul their website and create a marketing campaign online through [PPC advertising](https://rightruddermarketing.com/how-to-enroll-more-students-with-google-ads-in-2024), [SEO](https://rightruddermarketing.com/flight-school-seo), and [reputation management](https://rightruddermarketing.com/how-to-optimize-google-my-business-2024); we did provide marketing consultation services and web development work during our time together.
 

@@ -39,6 +39,6 @@ I can't wait to see them continue to become the best flight school in Miami and 
 ![Sun City Aviation Academy website screenshot](/sun-city-screenshot.png)
 *Sun City Aviation Academy website screenshot*
 
-> The company I work for has been working with Right Rudder Marketing for a while now and I can tell you they have helped us a lot! Our website improved and we started getting more and more inquiries. If you have a flight school you definitely have to work with them! - Maria, Sun City Aviation Academy
+> The company I work for has been working with Right Rudder Marketing for a while now and I can tell you they have helped us a lot! Our website improved and we started getting more and more inquiries. If you have a flight school you definitely have to work with them! <br><br> - Maria, Sun City Aviation Academy
 
-> Amazing Service. Tim and Tony are the most professional individuals I have ever conducted business with. - Cris, Sun City Aviation Academy
+> Amazing Service. Tim and Tony are the most professional individuals I have ever conducted business with. <br><br> - Cris, Sun City Aviation Academy

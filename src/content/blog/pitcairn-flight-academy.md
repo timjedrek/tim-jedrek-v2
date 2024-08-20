@@ -56,4 +56,4 @@ Right Rudder Marketing still works with David's team to this day.  As they conti
 ![Pitcairn Aviation FBO website screenshot](/pitcairn-aviation-screenshot.png)
 *Pitcairn Aviation FBO website screenshot*
 
-> Our flight school has been working with Right Rudder for almost a year now. They are an incredible group of people. We are so happy with them. Absolutely 100% if you have a flight school and need to work with them! - Marisa, Pitcairn Flight Academy
+> Our flight school has been working with Right Rudder for almost a year now. They are an incredible group of people. We are so happy with them. Absolutely 100% if you have a flight school and need to work with them! <br><br> - Marisa, Pitcairn Flight Academy
