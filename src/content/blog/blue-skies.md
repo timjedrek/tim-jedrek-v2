@@ -9,6 +9,9 @@ tags: ["flight schools", "clients"]
 Blog updated: August 18, 2024
 
 https://flytheblueskies.com
+https://www.facebook.com/flytheblueskies
+https://www.instagram.com/flybsa/
+https://twitter.com/flybsa
 
 When I first met Matthew, he had recently finished up his CFI and had a single plane.  He had the vision and goal of opening a flight school and had already gotten some of the groundwork done.  He was working with designers to get his logo up and he also filed the regulatory work to make his business real.  It wasn't his first rodeo.  He is also the owner of a IT business called, [BourgTech](https://www.bourgtechllc.com), where he used the income and profits from the business to fuel his passion for aviation and instructing.
 
