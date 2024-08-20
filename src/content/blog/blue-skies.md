@@ -29,10 +29,10 @@ Lastly as a cherry on top to our SEO efforts, we ran targeted geographical Googl
 ![Google Ads map of Blue Skies Above geographical targets](/blue-skies-ads-map.png)
 *Google Ads map of Blue Skies Above geographical targets*
 
-![Table of different ad groups](/blue-skies-ad-groups.png)
-*Table of different ad groups*
+<!-- ![Table of different ad groups](/blue-skies-ad-groups.png)
+*Table of different ad groups* -->
 
-This work paid off and his flight school is rapidly expanding.  Matthew recently purchased a new TAA aircraft which will help his commercial pilot students complete the prerequisites to pass their FAA checkrides.  In addition with starting with just himself and two CFIs when he first partnered with us, he has now expanded his team and has on staff seven CFIs to serve the surging student demand.
+This work paid off and his flight school is rapidly expanding.  Matthew recently purchased a new TAA aircraft bringing his total fleet size to four airplanes which will help his commercial pilot students complete the prerequisites to pass their FAA checkrides.  In addition with starting with just himself and two CFIs when he first partnered with us, he has now expanded his team and has on staff seven CFIs to serve the surging student demand.
 
 With more demand and inquiries coming in, we've also helped his business on the software side by providing the [Flight School CRM](https://docs.flightschoolcrm.com) to take in and organize student inquiries.  One of my favorite features of the CRM is the automatic text back when there's a missed call which helps capture lost leads.
 

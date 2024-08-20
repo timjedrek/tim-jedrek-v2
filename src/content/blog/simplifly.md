@@ -37,3 +37,5 @@ Check them out here:
 Blake also did a great testimonial video summarizing the work we did for SimpliFly.  Check it out here:
 
 * https://www.youtube.com/watch?v=qzT8Q49ExUw
+
+> Right rudder marketing has been a huge help and blessing in our business. They made an amazing website for us and their adds have brought in 3x more leads than previous companies that we’ve used. They also understand aviation and pilots which is a huge help. If you own a flight school then you definitely need to use right rudder marketing. - Blake, SimpliFly
