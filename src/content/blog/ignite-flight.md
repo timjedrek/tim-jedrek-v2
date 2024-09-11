@@ -1,7 +1,7 @@
 ---
 title: "Ignite Flight Academy"
 description: "Ignite Flight Academy is THE flight school in Lincoln, NE.  Being the #1 school in the area, they sought our help to find students outside their immediate area to expand the school further."
-pubDate: "Jan 9 2024"
+pubDate: "Jan 29 2024"
 heroImage: "/ignite-flight-academy-logo.jpg"
 tags: ["flight schools", "clients"]
 ---
