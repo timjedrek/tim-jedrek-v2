@@ -25,3 +25,7 @@ It has been a great several month working and partnering with the team at Summit
 
 
 Check them out here:
+
+https://www.summitflightacademy.com/ \
+https://www.facebook.com/summitflightacademy/ \
+https://www.instagram.com/summitflightacademy/
