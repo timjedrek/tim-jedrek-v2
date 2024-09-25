@@ -7,6 +7,6 @@ import partytown from "@astrojs/partytown";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://astrofy-template.netlify.app',
+  site: 'timjedrek.com',
   integrations: [mdx(), sitemap(), tailwind(), partytown()]
 });
