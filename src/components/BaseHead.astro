@@ -3,6 +3,7 @@
 // all pages through the use of the <BaseHead /> component.
 import '../styles/global.css';
 import GoogleAnalytics from "./GoogleAnalytics.astro";
+import FacebookPixel from "./FacebookPixel.astro";
 
 export interface Props {
 	title: string;
@@ -40,3 +41,5 @@ const { title, description, image = '/tim-jedrek.webp', ogType = 'website' } = A
 <meta property="twitter:image" content={new URL(image, Astro.url)} />
 
 <GoogleAnalytics measurementId={'G-BX9M6HDXXQ'} /> 
+
+<FacebookPixel/>
