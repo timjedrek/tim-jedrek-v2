@@ -27,10 +27,15 @@ It was me who took this company from a simple side gig to full scale digital mar
 
 So yea, I'm writing this post because I'm sure there are tons of other business owners in similar shoes as myself.  We did things a certain way and we're afraid.. that's right..  I said afraid.  We're afraid of letting go of the reins.  We want to have full control and we want everything to be perfect.
 
-Now don't get me wrong.  We shouldn't accept mediocrity either.  But if you've got 99% of the work done and your spending weeks or months on the last 1%... it might be time to accept that your letting perfection be the enemy of done.
+Now don't get me wrong.  We shouldn't accept mediocrity either.  But if you've got 99% of the work done and your spending weeks or months on the last 1%... it might be time to accept that **your letting perfection be the enemy of done**.
 
 So this is my encouragement to anyone reading this out there.  Pull the trigger and finish the project.  Stop procrastinating and commit to completion.
 
 Similar to landing a plane.  Yes, we need to strive for perfection and do things right.  But we still need to commit to an action after we've made the decision.
 
 Make your decision and own it.  Finish and commit.  Just do it.
+
+Here is the new website.  It's much more sleeker and has better design.  I also think that it highlights more of what we've been working on and how we've been helping flight schools grow and enroll more student pilots.
+
+!["New updated version of the Right Rudder Marketing Website September 2024"](/new-rrm-website.png)
+*New updated version of the Right Rudder Marketing Website September 2024*
