@@ -39,3 +39,5 @@ Here is the new website.  It's much more sleeker and has better design.  I also 
 
 !["New updated version of the Right Rudder Marketing Website September 2024"](/new-rrm-website.png)
 *New updated version of the Right Rudder Marketing Website September 2024*
+
+Check it out here: https://rightruddermarketing.com
