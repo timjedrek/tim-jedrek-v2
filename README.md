@@ -4,11 +4,11 @@ Welcome to the source code for [timjedrek.com](https://timjedrek.com).
 ## Overview
 Tim Jedrek is a business owner, pilot, writer, and software developer.  Coming from a background in corporate food manufacturing and working with fortune 500 companies, he aims to take the knowledge and experience he gleaned from working in large corporations to smaller businesses like flight schools and aviation companies.
 
-Tim Jedrek is passionate about aviation and helping flight schools enroll more pilots and grow their fleets.  Tim Jedrek is on a mission to partner with 100 flight schools to double, triple, or 10X their businesses.
+Tim Jedrek is extremely passionate about aviation and helping flight schools enroll more pilots and grow their fleets.  Tim Jedrek is on a mission to partner with 100 flight schools to double, triple, or 10X their businesses.
 
 ## Quick Links
 
-🎤 If you're interested in booking me for talks/speaking engagements please take a look at Tim's [speaker bio](https://timjedrek.com/tim-jedrek-speaker-bio.pdf) and also [reach out here](https://forms.timjedrek.com/contact).
+🎤 If you're interested in booking Tim Jedrek for talks/speaking engagements please take a look at Tim's [speaker bio](https://timjedrek.com/tim-jedrek-speaker-bio.pdf) and [reach out here](https://forms.timjedrek.com/contact).
 
 📖 For details about Tim's recently published book on flight school marketing, visit the amazon page for the [Flight School Handbook of Marketing Knowledge](https://a.co/d/fqMeqZY).  
 
@@ -21,7 +21,7 @@ Tim Jedrek is passionate about aviation and helping flight schools enroll more p
 
 *Templated from https://astrofy-template.netlify.app*
 
-To run in a local environment, node [(npm)](https://www.npmjs.com) is required.
+To run in a local environment, node [(npm)](https://www.npmjs.com) is required.  In the terminal run `npm run dev`
 
 ## Get in Touch
 💬 For any inquiries or to start a conversation, [send a message here](https://forms.timjedrek.com/contact).
