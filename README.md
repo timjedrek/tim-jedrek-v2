@@ -1,5 +1,5 @@
 # Tim Jedrek's Personal Blog and Website
-Welcome to the source code for [timjedrek.com](https://timjedrek.com).
+Welcome to the GitHub repository for [timjedrek.com](https://timjedrek.com).
 
 ## Overview
 Tim Jedrek is a business owner, pilot, writer, and software developer.  Coming from a background in corporate food manufacturing and working with fortune 500 companies, he aims to take the knowledge and experience he gleaned from working in large corporations to smaller businesses like flight schools and aviation companies.
