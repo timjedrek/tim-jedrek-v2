@@ -8,7 +8,7 @@ Tim Jedrek is extremely passionate about aviation and helping flight schools enr
 
 ## Quick Links
 
-🎤 If you're interested in booking Tim Jedrek for talks/speaking engagements please take a look at Tim's [speaker bio](https://timjedrek.com/tim-jedrek-speaker-bio.pdf) and [reach out here](https://forms.timjedrek.com/contact).
+🎤 If you're interested in booking Tim Jedrek for talks or speaking engagements please take a look at Tim's [speaker bio](https://timjedrek.com/tim-jedrek-speaker-bio.pdf) and [reach out here](https://forms.timjedrek.com/contact).
 
 📖 For details about Tim's recently published book on flight school marketing, visit the amazon page for the [Flight School Handbook of Marketing Knowledge](https://a.co/d/fqMeqZY).  
 
@@ -21,7 +21,7 @@ Tim Jedrek is extremely passionate about aviation and helping flight schools enr
 
 *Templated from https://astrofy-template.netlify.app*
 
-To run in a local environment, node [(npm)](https://www.npmjs.com) is required.  In the terminal run `npm run dev`
+To run in a local environment, node [(npm)](https://www.npmjs.com) is required.  In the terminal run `npm install` and then `npm run dev`
 
 ## Get in Touch
 💬 For any inquiries or to start a conversation, [send a message here](https://forms.timjedrek.com/contact).
