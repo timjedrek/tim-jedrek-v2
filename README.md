@@ -12,7 +12,7 @@ Tim Jedrek is extremely passionate about aviation and helping flight schools enr
 
 📖 For details about Tim's recently published book on flight school marketing, visit the amazon page for the [Flight School Handbook of Marketing Knowledge](https://a.co/d/fqMeqZY).  
 
-🛫 For more information about Right Rudder Marketing, check out our [Company Profile](https://timjedrek.com/right-rudder-marketing-company-profile.pdf).
+🛫 For more information about Right Rudder Marketing, check out our [Company Profile](https://timjedrek.com/right-rudder-marketing-company-profile.pdf) or visit the [Right Rudder Marketing website](https://rightruddermarketing.com).
 
 ### Tech stack used
 - [Astro](https://astro.build/)
