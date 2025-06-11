@@ -63,7 +63,7 @@ Ready to take off? Reach out today:
 - 📧 [info@speedwayft.com](mailto:info@speedwayft.com)
 - 🌐 [www.speedwayft.com](https://www.speedwayft.com/)
 
-**Follow Speedway on Social Media**
+## Follow Speedway on Social Media
 
 - [Facebook](https://www.facebook.com/people/Speedway-Flight-Training/61574840653146/#)
 - [Instagram](https://www.instagram.com/speedway_flight_training/)
