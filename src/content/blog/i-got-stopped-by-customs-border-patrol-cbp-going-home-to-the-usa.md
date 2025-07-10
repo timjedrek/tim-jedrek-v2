@@ -1,19 +1,14 @@
 ---
-title: "My Colombia Journey"
+title: "I Got Stopped By Customs Border Patrol CBP Going Home to the USA"
 description: "It was funny but it showed how travel can surprise you. This trip was full of surprises—taking a Japanese test in Bogotá, visiting friends in Cali, Palmira, and Medellín, and ending in Miami with big business ideas."
 pubDate: "Jul 10 2025"
-heroImage: "/tim-jedrek-personal-blog-bogota-andes.webp"
+heroImage: "/tim-jedrek-personal-blog-customs.webp"
 tags: ["travel", "business", "personal growth"]
 ---
 
 Getting stopped by Customs and Border Patrol at the airport was not how I expected my trip back to the USA to go. They “randomly” picked me. Maybe because I’m brown? Maybe because I’m tall and had just a backpack and no suitcase? No idea. In a separate room, they requested to see my passport and began to ask questions. I handed over my American passport and once they heard my American accent, they realized I wasn’t who they thought. They let me go after scanning my bags and I assured them I didn’t bring food or visit any farms.
 
----
-
-![Image from South Florida Business Journal](/tim-jedrek-personal-blog-customs.webp)
-_Image from South Florida Business Journal_
-
----
+## My Experience in Colombia and Miami - New Experiences and Friends
 
 It was funny but it showed how travel can surprise you. This trip was full of surprises—taking a Japanese test in Bogotá, visiting friends in Cali, Palmira, and Medellín, and ending in Miami with big business ideas.
 
@@ -139,6 +134,12 @@ It also reinforced to me that AI is changing how we might be doing marketing in 
 Similar to 7FA, mentors and groups like FSANA (Flight School Association of North America) and NAFI (National Association of Flight Instructors) have been huge for RRM and our flight schools. Groups like this have connected me to flight school leaders, and I’ve given talks and joined panels to help them grow. It’s an honor to be a leader in the industry.
 
 I later visited Sun City Aviation Academy, one of RRM’s first clients. They’re in Miami. They grew from $500,000 to multiple seven figures in two years. I’m so proud to have helped and be a part of their success. Georgette, one of the owners, loves children and hosts events like Rusty Pilot Seminars, Women in Aviation, and youth programs. Her husband, Luke, brings decades of aviation expertise and leads an experienced and knowledgeable team.
+
+---
+
+![Founders & Owners of Sun City Aviation Academy](/tim-jedrek-personal-blog-sun-city-visit.webp)
+
+---
 
 Their trust in RRM’s vision and strategy, paired with their hard work hosting events and providing the best service and flight training, made this growth possible. Georgette’s gratitude hit me hard. She thanked me for helping their dream come true. To make an impact on their students' lives and to train more pilots. Seeing their success feels incredible. I’m truly thankful for our partnership. Being one of our first clients, they helped me get the momentum to go full time in the business and end my career in manufacturing. It’s a blessing.
 
