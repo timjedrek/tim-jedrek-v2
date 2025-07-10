@@ -5,6 +5,9 @@ Disallow: /private/
 Disallow: /*?*
 Allow: /blog/
 Allow: /store/
+Allow: /blog?page=
+Allow: /store?category=
+Allow: /store?sort=
 
 # Crawl-delay
 Crawl-delay: 1
