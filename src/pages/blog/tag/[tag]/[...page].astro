@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "@layouts/BaseLayout.astro";
 import HorizontalCard from "@components/HorizontalCard.astro";
+import Breadcrumb from "@components/Breadcrumb.astro";
 import { getCollection } from "astro:content";
 import createSlug from "../../../../lib/createSlug";
 
@@ -11,23 +12,43 @@ export async function getStaticPaths({ paginate }) {
   });
 
   return all_tags.flatMap((tag) => {
-    const filtred_posts = all_posts.filter((post) => {
+    const filtered_posts = all_posts.filter((post) => {
       return post.data.tags?.includes(tag);
     });
-    return paginate(filtred_posts, {
+    return paginate(filtered_posts, {
       params: { tag },
       pageSize: 10,
     });
   });
 }
 
-const { page } = Astro.props;
-const params = Astro.params;
+const { page } = Astro.props as { page: any };
+const { tag } = Astro.params;
+
+// Enhanced SEO for tag pages
+const tagName = tag || "Unknown";
+const pageTitle = `${tagName} - Tim Jedrek's Blog`;
+const pageDescription = `Read all blog posts about ${tagName} from Tim Jedrek. Expert insights on digital marketing, aviation, and business growth.`;
+const keywords = `${tagName}, Tim Jedrek, digital marketing, aviation marketing, flight school marketing, business growth, ${tagName} blog posts`;
+
+// Breadcrumb items
+const breadcrumbItems = [
+  { name: "Home", url: "/" },
+  { name: "Blog", url: "/blog" },
+];
 ---
 
-<BaseLayout title={"Blog - " + params.tag} sideBarActiveItemID="blog">
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  keywords={keywords}
+  schemaType="website"
+  sideBarActiveItemID="blog"
+>
+  <Breadcrumb items={breadcrumbItems} current={`Tag: ${tagName}`} />
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Blog - {params.tag}</div>
+    <div class="text-3xl w-full font-bold">Blog - {tagName}</div>
+    <p class="text-gray-600 mt-2">Posts tagged with "{tagName}"</p>
   </div>
   {
     page.data.length === 0 ? (

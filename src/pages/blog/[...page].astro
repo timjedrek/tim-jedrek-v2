@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import HorizontalCard from "../../components/HorizontalCard.astro";
+import Breadcrumb from "../../components/Breadcrumb.astro";
 import { getCollection } from "astro:content";
 import createSlug from "../../lib/createSlug";
 
@@ -31,11 +32,31 @@ export async function getStaticPaths({ paginate }) {
 }
 
 const { page } = Astro.props;
+
+// Enhanced SEO for blog listing
+const pageTitle = "Tim Jedrek's Blog - Digital Marketing & Aviation Insights";
+const pageDescription =
+  "Read Tim Jedrek's insights on digital marketing, flight school marketing, aviation business growth, and entrepreneurship. Expert advice from a successful marketing agency owner.";
+const keywords =
+  "Tim Jedrek blog, digital marketing blog, aviation marketing, flight school marketing, business growth, entrepreneurship, marketing tips, aviation business";
+
+// Breadcrumb items
+const breadcrumbItems = [{ name: "Home", url: "/" }];
 ---
 
-<BaseLayout title="Tim Jedrek's Blog" sideBarActiveItemID="blog">
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  keywords={keywords}
+  schemaType="website"
+  sideBarActiveItemID="blog"
+>
+  <Breadcrumb items={breadcrumbItems} current="Blog" />
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Blog</div>
+    <p class="text-gray-100 mt-2">
+      Insights on digital marketing, aviation, and business growth
+    </p>
   </div>
 
   {
