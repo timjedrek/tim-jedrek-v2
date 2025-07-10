@@ -1,0 +1,83 @@
+---
+// Performance optimization component
+export interface Props {
+  priority?: boolean;
+  preload?: string[];
+}
+
+const { priority = false, preload = [] } = Astro.props;
+---
+
+<!-- Critical CSS inlining for above-the-fold content -->
+{priority && (
+  <style>
+    /* Critical CSS for above-the-fold content */
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      line-height: 1.6;
+    }
+    
+    .hero-section {
+      min-height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    /* Prevent layout shift */
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    /* Optimize font loading */
+    @font-face {
+      font-family: 'System Font';
+      src: local('system-ui'), local('-apple-system'), local('BlinkMacSystemFont');
+      font-display: swap;
+    }
+  </style>
+)}
+
+<!-- Preload critical resources -->
+{preload.map(resource => (
+  <link rel="preload" href={resource} as="image" />
+))}
+
+<!-- Optimize third-party scripts -->
+<script is:inline>
+  // Lazy load non-critical scripts
+  window.addEventListener('load', function() {
+    // Delay non-critical scripts
+    setTimeout(function() {
+      // Initialize analytics after page load
+      if (typeof window.gtag !== 'undefined') {
+        window.gtag('config', 'G-BX9M6HDXXQ', {
+          page_title: document.title,
+          page_location: window.location.href
+        });
+      }
+    }, 1000);
+  });
+  
+  // Intersection Observer for lazy loading
+  if ('IntersectionObserver' in window) {
+    const lazyImages = document.querySelectorAll('img[data-src]');
+    const imageObserver = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          const img = entry.target;
+          if (img instanceof HTMLImageElement) {
+            img.src = img.dataset.src || '';
+            img.classList.remove('lazy');
+            imageObserver.unobserve(img);
+          }
+        }
+      });
+    });
+    
+    lazyImages.forEach(function(img) {
+      imageObserver.observe(img);
+    });
+  }
+</script>

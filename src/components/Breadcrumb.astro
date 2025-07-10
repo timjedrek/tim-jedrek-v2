@@ -1,0 +1,69 @@
+---
+export interface BreadcrumbItem {
+  name: string;
+  url: string;
+}
+
+export interface Props {
+  items: BreadcrumbItem[];
+  current?: string;
+}
+
+const { items, current } = Astro.props;
+
+// Generate Schema.org BreadcrumbList
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: items.map((item, index) => ({
+    "@type": "ListItem",
+    position: index + 1,
+    name: item.name,
+    item: item.url,
+  })),
+};
+
+// Add current page if provided
+if (current) {
+  breadcrumbSchema.itemListElement.push({
+    "@type": "ListItem",
+    position: items.length + 1,
+    name: current,
+    item: Astro.url.href,
+  });
+}
+---
+
+<nav aria-label="Breadcrumb" class="mb-6">
+  <ol class="flex items-center space-x-2 text-sm font-thin text-gray-200">
+    {
+      items.map((item, index) => (
+        <li class="flex items-center">
+          {index > 0 && <span class="mx-2 text-gray-300">/</span>}
+          <a
+            href={item.url}
+            class="text-blue-300 hover:text-blue-100 hover:underline"
+            aria-label={`Go to ${item.name}`}
+          >
+            {item.name}
+          </a>
+        </li>
+      ))
+    }
+    {
+      current && (
+        <li class="flex items-center">
+          <span class="mx-2 text-gray-300">/</span>
+          <span class="text-gray-100 font-medium" aria-current="page">
+            {current}
+          </span>
+        </li>
+      )
+    }
+  </ol>
+</nav>
+
+<script
+  type="application/ld+json"
+  set:html={JSON.stringify(breadcrumbSchema)}
+/>

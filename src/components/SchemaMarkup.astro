@@ -1,0 +1,165 @@
+---
+export interface Props {
+  type: "person" | "organization" | "article" | "website";
+  title?: string;
+  description?: string;
+  image?: string;
+  url?: string;
+  publishedDate?: string;
+  modifiedDate?: string;
+  authorName?: string;
+  authorUrl?: string;
+}
+
+const {
+  type,
+  title,
+  description,
+  image,
+  url = Astro.url.href,
+  publishedDate,
+  modifiedDate,
+  authorName = "Tim Jedrek",
+  authorUrl = "https://timjedrek.com",
+} = Astro.props;
+
+const baseUrl = "https://timjedrek.com";
+
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Tim Jedrek",
+  url: baseUrl,
+  image: `${baseUrl}/tim-jedrek.webp`,
+  description:
+    "Tim Jedrek is a business owner, pilot, writer, and software developer. Coming from a background in corporate food manufacturing and working with fortune 500 companies, he aims to take the knowledge and experience he gleaned from working in large corporations to smaller businesses like flight schools and aviation companies.",
+  jobTitle: "CEO & Founder",
+  worksFor: {
+    "@type": "Organization",
+    name: "Right Rudder Marketing",
+    url: "https://rightruddermarketing.com",
+  },
+  sameAs: [
+    "https://www.linkedin.com/in/timjedrek/",
+    "https://twitter.com/rightruddermktg",
+    "https://www.facebook.com/Tim.is.amazing/",
+    "https://www.instagram.com/rightruddermarketing/",
+    "https://github.com/timjedrek",
+  ],
+  alumniOf: "Corporate Food Manufacturing",
+  knowsAbout: [
+    "Digital Marketing",
+    "Flight School Marketing",
+    "Aviation Marketing",
+    "SEO",
+    "Google Ads",
+    "Software Development",
+    "Quality Assurance",
+    "Business Development",
+  ],
+  email: "tim@timjedrek.com",
+  telephone: "+1-314-358-2100",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Missouri",
+    addressCountry: "US",
+  },
+};
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Right Rudder Marketing",
+  url: "https://rightruddermarketing.com",
+  logo: `${baseUrl}/right-rudder-marketing-logo.png`,
+  description:
+    "Right Rudder Marketing is a digital marketing agency specializing in flight school marketing, aviation marketing, and helping flight schools grow their student body and revenue.",
+  founder: {
+    "@type": "Person",
+    name: "Tim Jedrek",
+    url: baseUrl,
+  },
+  foundingDate: "2022",
+  industry: "Digital Marketing",
+  specialization: [
+    "Flight School Marketing",
+    "Aviation Marketing",
+    "SEO",
+    "Google Ads",
+    "Website Development",
+  ],
+  sameAs: [
+    "https://www.linkedin.com/company/right-rudder-marketing/",
+    "https://twitter.com/rightruddermktg",
+    "https://www.facebook.com/rightruddermarketing/",
+    "https://www.instagram.com/rightruddermarketing/",
+  ],
+};
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: title,
+  description: description,
+  image: image ? `${baseUrl}${image}` : `${baseUrl}/tim-jedrek.webp`,
+  url: url,
+  datePublished: publishedDate,
+  dateModified: modifiedDate || publishedDate,
+  author: {
+    "@type": "Person",
+    name: authorName,
+    url: authorUrl,
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Tim Jedrek",
+    logo: {
+      "@type": "ImageObject",
+      url: `${baseUrl}/tim-jedrek.webp`,
+    },
+  },
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": url,
+  },
+};
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Tim Jedrek's Personal Website",
+  url: baseUrl,
+  description:
+    "Tim Jedrek is a business owner, pilot, writer, and software developer specializing in flight school marketing and aviation business growth.",
+  author: {
+    "@type": "Person",
+    name: "Tim Jedrek",
+    url: baseUrl,
+  },
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate: `${baseUrl}/blog?q={search_term_string}`,
+    },
+    "query-input": "required name=search_term_string",
+  },
+};
+
+const getSchema = () => {
+  switch (type) {
+    case "person":
+      return personSchema;
+    case "organization":
+      return organizationSchema;
+    case "article":
+      return articleSchema;
+    case "website":
+      return websiteSchema;
+    default:
+      return personSchema;
+  }
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(getSchema())} />

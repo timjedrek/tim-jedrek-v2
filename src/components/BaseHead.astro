@@ -1,45 +1,130 @@
 ---
 // Import the global.css file here so that it is included on
 // all pages through the use of the <BaseHead /> component.
-import '../styles/global.css';
+import "../styles/global.css";
 import GoogleAnalytics from "./GoogleAnalytics.astro";
 import FacebookPixel from "./FacebookPixel.astro";
+import SchemaMarkup from "./SchemaMarkup.astro";
 
 export interface Props {
-	title: string;
-	description: string;
-	image?: string;
-	ogType?: string;
+  title: string;
+  description: string;
+  image?: string;
+  ogType?: string;
+  keywords?: string;
+  canonicalUrl?: string;
+  publishedDate?: string;
+  modifiedDate?: string;
+  author?: string;
+  schemaType?: "person" | "organization" | "article" | "website";
 }
 
-const { title, description, image = '/tim-jedrek.webp', ogType = 'website' } = Astro.props;
+const {
+  title,
+  description,
+  image = "/tim-jedrek.webp",
+  ogType = "website",
+  keywords,
+  canonicalUrl,
+  publishedDate,
+  modifiedDate,
+  author = "Tim Jedrek",
+  schemaType = "person",
+} = Astro.props;
+
+const siteUrl = "https://timjedrek.com";
+const canonical = canonicalUrl || Astro.url.href;
 ---
 
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 <meta name="generator" content={Astro.generator} />
+
+<!-- Canonical URL -->
+<link rel="canonical" href={canonical} />
 
 <!-- Primary Meta Tags -->
 <title>{title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
+<meta name="author" content={author} />
+{keywords && <meta name="keywords" content={keywords} />}
+
+<!-- Robots Meta Tag -->
+<meta
+  name="robots"
+  content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+/>
+
+<!-- Language -->
+
+<!-- Theme Color -->
+<meta name="theme-color" content="#1f2937" />
+
+<!-- Article Meta Tags -->
+{
+  publishedDate && (
+    <meta name="article:published_time" content={publishedDate} />
+  )
+}
+{modifiedDate && <meta name="article:modified_time" content={modifiedDate} />}
+{author && <meta name="article:author" content={author} />}
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content={ogType} />
-<meta property="og:url" content={Astro.url} />
+<meta property="og:url" content={canonical} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={new URL(image, Astro.url)} />
+<meta property="og:image" content={new URL(image, siteUrl)} />
+<meta property="og:image:alt" content={title} />
+<meta
+  property="og:site_name"
+  content="Tim Jedrek - Digital Marketing & Aviation Expert"
+/>
+<meta property="og:locale" content="en_US" />
 
 <!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={Astro.url} />
-<meta property="twitter:title" content={title} />
-<meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={new URL(image, Astro.url)} />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@rightruddermktg" />
+<meta name="twitter:creator" content="@rightruddermktg" />
+<meta name="twitter:url" content={canonical} />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={new URL(image, siteUrl)} />
+<meta name="twitter:image:alt" content={title} />
 
-<GoogleAnalytics measurementId={'G-BX9M6HDXXQ'} /> 
+<!-- Additional SEO Meta Tags -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta
+  name="apple-mobile-web-app-status-bar-style"
+  content="black-translucent"
+/>
+<meta name="apple-mobile-web-app-title" content="Tim Jedrek" />
 
-<FacebookPixel/>
+<!-- Preconnect to external domains -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://www.google-analytics.com" />
+<link rel="preconnect" href="https://www.facebook.com" />
+
+<!-- DNS Prefetch -->
+<link rel="dns-prefetch" href="https://rightruddermarketing.com" />
+<link rel="dns-prefetch" href="https://forms.timjedrek.com" />
+
+<!-- Schema Markup -->
+<SchemaMarkup
+  type={schemaType}
+  title={title}
+  description={description}
+  image={image}
+  url={canonical}
+  publishedDate={publishedDate}
+  modifiedDate={modifiedDate}
+  authorName={author}
+  authorUrl={siteUrl}
+/>
+
+<GoogleAnalytics measurementId={"G-BX9M6HDXXQ"} />
+
+<FacebookPixel />
