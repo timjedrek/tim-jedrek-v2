@@ -98,7 +98,10 @@ This phase is about legacy. It’s not just about revenue—it’s about leaving
 ## Was It Worth It?
 Hell yeah, it’s been worth it. Five years ago, I was stuck in a factory office, miserable and unfulfilled. I knew I could do more. Starting Right Rudder Marketing let me meet incredible people, fly across the country, and even hop in the cockpit of planes I’d never have touched otherwise.
 
-But it’s not all blue skies. The tax man, difficult clients, and team drama are real. Cash flow stress keeps you up at night. Still, I wouldn’t trade it. Knowing what I know now, I’d make the same call again.
+![Me with one of my team members inside the cockpit of a C-47 Douglas Skytrain](/inside-the-cockpit-of-a-c-47-douglas-skytrain.jpeg)
+*Me with one of my team members inside the cockpit of a C-47 Douglas Skytrain*
+
+But it’s not all blue skies. The tax man, difficult clients, and team drama are real. Cash flow stress keeps you up at night. Still, I wouldn’t trade it. Knowing what I know now, I’d make the same decisions again.
 
 If you’re thinking about starting a marketing agency, you need a good head on your shoulders and the guts to step out of your comfort zone. Connect with new people, find your niche, and commit to the grind. It’s not easy, but anyone can do it with the right mindset.
 
