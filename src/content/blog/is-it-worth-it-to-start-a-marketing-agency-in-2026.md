@@ -55,6 +55,9 @@ The goal isn’t to get rich quick—it’s to land that first client and knock 
 
 After 3–6 months, ask for a video testimonial. Use that testimonial and case study to pitch your next client. Keep this up, and you’ll build a library of proof that snowballs into more clients. As you grow, charge higher rates to boost revenue.
 
+![Screenshot of the RRM Website section for case studies and testimonials.](/screenshot-of-right-rudder-website-case-studies-and-testimonials.png)
+*Screenshot of the RRM Website section for case studies and testimonials.  Case studies and testimonial are mandatory for building reputation and authority*
+
 Here’s how it went down for me. When I was just starting out, I leaned on my aviation background. I pitched the flight schools where I was taking lessons and renting planes. One was a college where I was doing simulator training for my instrument rating. 
 
 I gave the director of aviation my pitch, and he was all in—wanted to hire me right then and there. But, being a college, his hands were tied because they had their own marketing department.
@@ -101,7 +104,7 @@ Hell yeah, it’s been worth it. Five years ago, I was stuck in a factory office
 ![Me with one of my team members inside the cockpit of a C-47 Douglas Skytrain](/inside-the-cockpit-of-a-c-47-douglas-skytrain.jpeg)
 *Me with one of my team members inside the cockpit of a C-47 Douglas Skytrain*
 
-But it’s not all blue skies. The tax man, difficult clients, and team drama are real. Cash flow stress keeps you up at night. Still, I wouldn’t trade it. Knowing what I know now, I’d make the same decisions again.
+But it’s not all blue skies. The tax man, difficult clients, and team drama are real. Cash flow stress keeps you up at night. Still, I wouldn’t trade it. Knowing what I know now, I’d make the same decisionsagain.
 
 If you’re thinking about starting a marketing agency, you need a good head on your shoulders and the guts to step out of your comfort zone. Connect with new people, find your niche, and commit to the grind. It’s not easy, but anyone can do it with the right mindset.
 
