@@ -3,7 +3,7 @@ title: "I Got Stopped By Customs Border Patrol CBP Going Home to the USA"
 description: "It was funny but it showed how travel can surprise you. This trip was full of surprises—taking a Japanese test in Bogotá, visiting friends in Cali, Palmira, and Medellín, and ending in Miami with big business ideas."
 pubDate: "Jul 10 2025"
 heroImage: "/tim-jedrek-personal-blog-customs.webp"
-tags: ["travel", "business", "personal growth"]
+tags: ["travel", "business", "personal growth", "stories"]
 ---
 
 Getting stopped by Customs and Border Patrol at the airport was not how I expected my trip back to the USA to go. They “randomly” picked me. Maybe because I’m brown? Maybe because I’m tall and had just a backpack and no suitcase? No idea. In a separate room, they requested to see my passport and began to ask questions. I handed over my American passport and once they heard my American accent, they realized I wasn’t who they thought. They let me go after scanning my bags and I assured them I didn’t bring food or visit any farms.
