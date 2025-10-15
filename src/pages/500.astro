@@ -1,11 +1,11 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 
-const pageTitle = "404 - Page Not Found | Tim Jedrek";
+const pageTitle = "500 - Server Error | Tim Jedrek";
 const pageDescription =
-  "Sorry, the page you're looking for couldn't be found. Explore Tim Jedrek's blog, services, and digital marketing insights.";
+  "Something went wrong on our end. We're working to fix the issue. Please try again later.";
 const keywords =
-  "404 error, page not found, Tim Jedrek, digital marketing, aviation marketing";
+  "500 error, server error, Tim Jedrek, digital marketing, aviation marketing";
 ---
 
 <BaseLayout
@@ -15,12 +15,12 @@ const keywords =
   includeSidebar={false}
 >
   <div class="text-center">
-    <h1 class="text-9xl font-bold mb-4">🏝</h1>
-    <h2 class="text-9xl font-bold mb-2">404</h2>
-    <h3 class="text-2xl mb-4">Page Not Found</h3>
-    <p class="text-lg text-gray-100 mb-6">
-      The page you're looking for couldn't be found. Perhaps you're looking for
-      one of these popular pages:
+    <h1 class="text-9xl font-bold mb-4">⚠️</h1>
+    <h2 class="text-9xl font-bold mb-2">500</h2>
+    <h3 class="text-2xl mb-4">Internal Server Error</h3>
+    <p class="text-lg text-gray-200 mb-6">
+      Oops! Something went wrong on our end. We're working to fix the issue.
+      Please try again later.
     </p>
 
     <div class="space-y-4 mb-8">
@@ -34,10 +34,11 @@ const keywords =
       </div>
     </div>
 
-    <p class="text-gray-50 mb-6">
-      Or go back to the <a href="/" class="text-blue-200 hover:underline"
-        >homepage</a
-      > to start over.
+    <p class="text-gray-100 mb-6">
+      If the problem persists, please <a
+        href="https://forms.timjedrek.com/contact"
+        class="text-blue-200 hover:underline">contact us</a
+      >.
     </p>
 
     <a class="btn btn-accent mt-4" href="/">Take Me Home</a>
