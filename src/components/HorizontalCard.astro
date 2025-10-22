@@ -9,7 +9,7 @@ const tag_url = url.split("/").slice(0, -1).join("/") + "/tag";
 >
   <a href={url} target={target}>
     <div class="hero-content flex-col md:flex-row">
-      <div class="max-w-64">
+      <div class="max-w-sm">
         {
           img && (
             <Image
@@ -18,7 +18,7 @@ const tag_url = url.split("/").slice(0, -1).join("/") + "/tag";
               height={422}
               format="webp"
               alt={title}
-              class="w-full object-contain rounded-lg"
+              class="w-full object-cover rounded-lg"
             />
           )
         }
