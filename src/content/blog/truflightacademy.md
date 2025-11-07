@@ -1,6 +1,6 @@
 ---
 title: "True Flight Academy"
-description: "Our new partnership with True Flight Academy, Sarasota’s premier flight school with a 98% checkride pass rate. Learn about their expert team, full-service offerings, and top-tier programs for aspiring pilots. Let’s fly higher together!"
+description: "We are excited to announce that Right Rudder Marketing is now partnering with TruFlight Academy, a helicopter flight school based in North Texas. Learn about their modern fleet, experienced instructors, and flexible training options for aspiring rotorcraft pilots."
 pubDate: "Nov 6 2025"
 heroImage: "/Truflight-OG.png"
 tags: ["flight schools", "clients"]
