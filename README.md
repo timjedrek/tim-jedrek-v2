@@ -25,3 +25,4 @@ To run in a local environment, node [(npm)](https://www.npmjs.com) is required. 
 
 ## Get in Touch
 💬 For any inquiries or to start a conversation, [send a message here](https://forms.timjedrek.com/contact).
+ 
